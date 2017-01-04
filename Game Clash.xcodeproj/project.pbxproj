@@ -19,6 +19,9 @@
 		491282B71E1C7D7C00D0AD71 /* Oh yeah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 491282B41E1C7D7C00D0AD71 /* Oh yeah.mp3 */; };
 		491282B81E1C7D7C00D0AD71 /* Splatter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 491282B51E1C7D7C00D0AD71 /* Splatter.mp3 */; };
 		491282BA1E1C7D8B00D0AD71 /* Bomb Exploding Sound Effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 491282B91E1C7D8B00D0AD71 /* Bomb Exploding Sound Effect.mp3 */; };
+		491282C01E1C8E5A00D0AD71 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491282BF1E1C8E5A00D0AD71 /* MainMenuViewController.swift */; };
+		491282C21E1C98F700D0AD71 /* swoosh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 491282C11E1C98F700D0AD71 /* swoosh.mp3 */; };
+		491282C61E1CA0BF00D0AD71 /* SinglePlayerGameSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491282C51E1CA0BF00D0AD71 /* SinglePlayerGameSelectViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		491282B41E1C7D7C00D0AD71 /* Oh yeah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Oh yeah.mp3"; path = "../Oh yeah.mp3"; sourceTree = "<group>"; };
 		491282B51E1C7D7C00D0AD71 /* Splatter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Splatter.mp3; path = ../Splatter.mp3; sourceTree = "<group>"; };
 		491282B91E1C7D8B00D0AD71 /* Bomb Exploding Sound Effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bomb Exploding Sound Effect.mp3"; sourceTree = "<group>"; };
+		491282BF1E1C8E5A00D0AD71 /* MainMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		491282C11E1C98F700D0AD71 /* swoosh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = swoosh.mp3; sourceTree = "<group>"; };
+		491282C51E1CA0BF00D0AD71 /* SinglePlayerGameSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SinglePlayerGameSelectViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,8 @@
 				4912825C1E1C6ACD00D0AD71 /* GameScene.swift */,
 				4912825E1E1C6ACD00D0AD71 /* GameViewController.swift */,
 				491282601E1C6ACD00D0AD71 /* Main.storyboard */,
+				491282C51E1CA0BF00D0AD71 /* SinglePlayerGameSelectViewController.swift */,
+				491282BF1E1C8E5A00D0AD71 /* MainMenuViewController.swift */,
 				491282631E1C6ACD00D0AD71 /* Assets.xcassets */,
 				491282A01E1C7D0E00D0AD71 /* Audio Files */,
 				491282651E1C6ACD00D0AD71 /* LaunchScreen.storyboard */,
@@ -121,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				491282B91E1C7D8B00D0AD71 /* Bomb Exploding Sound Effect.mp3 */,
+				491282C11E1C98F700D0AD71 /* swoosh.mp3 */,
 				491282B41E1C7D7C00D0AD71 /* Oh yeah.mp3 */,
 				491282B31E1C7D7C00D0AD71 /* MBC.mp3 */,
 				491282B51E1C7D7C00D0AD71 /* Splatter.mp3 */,
@@ -248,6 +257,7 @@
 				491282671E1C6ACD00D0AD71 /* LaunchScreen.storyboard in Resources */,
 				4912825B1E1C6ACD00D0AD71 /* Actions.sks in Resources */,
 				491282B81E1C7D7C00D0AD71 /* Splatter.mp3 in Resources */,
+				491282C21E1C98F700D0AD71 /* swoosh.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +282,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				491282C61E1CA0BF00D0AD71 /* SinglePlayerGameSelectViewController.swift in Sources */,
+				491282C01E1C8E5A00D0AD71 /* MainMenuViewController.swift in Sources */,
 				4912825D1E1C6ACD00D0AD71 /* GameScene.swift in Sources */,
 				4912825F1E1C6ACD00D0AD71 /* GameViewController.swift in Sources */,
 				491282571E1C6ACC00D0AD71 /* AppDelegate.swift in Sources */,
