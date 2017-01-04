@@ -16,7 +16,6 @@
 		491282641E1C6ACD00D0AD71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491282631E1C6ACD00D0AD71 /* Assets.xcassets */; };
 		491282671E1C6ACD00D0AD71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491282651E1C6ACD00D0AD71 /* LaunchScreen.storyboard */; };
 		491282AA1E1C7D0E00D0AD71 /* 090105-Board.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 491282A11E1C7D0E00D0AD71 /* 090105-Board.jpeg */; };
-		491282AB1E1C7D0E00D0AD71 /* 090105-Board.png in Resources */ = {isa = PBXBuildFile; fileRef = 491282A21E1C7D0E00D0AD71 /* 090105-Board.png */; };
 		491282AC1E1C7D0E00D0AD71 /* 401px-digitizationgrid1a.png in Resources */ = {isa = PBXBuildFile; fileRef = 491282A31E1C7D0E00D0AD71 /* 401px-digitizationgrid1a.png */; };
 		491282AD1E1C7D0E00D0AD71 /* black-bomb-clip-art-at-clker-com-vector-clip-art-online-royalty-Q5fe3u-clipart.png in Resources */ = {isa = PBXBuildFile; fileRef = 491282A41E1C7D0E00D0AD71 /* black-bomb-clip-art-at-clker-com-vector-clip-art-online-royalty-Q5fe3u-clipart.png */; };
 		491282AE1E1C7D0E00D0AD71 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 491282A51E1C7D0E00D0AD71 /* board.png */; };
@@ -61,7 +60,6 @@
 		4912826D1E1C6ACE00D0AD71 /* Game ClashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Game ClashTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		491282781E1C6ACE00D0AD71 /* Game ClashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Game ClashUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		491282A11E1C7D0E00D0AD71 /* 090105-Board.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "090105-Board.jpeg"; sourceTree = "<group>"; };
-		491282A21E1C7D0E00D0AD71 /* 090105-Board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "090105-Board.png"; sourceTree = "<group>"; };
 		491282A31E1C7D0E00D0AD71 /* 401px-digitizationgrid1a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "401px-digitizationgrid1a.png"; sourceTree = "<group>"; };
 		491282A41E1C7D0E00D0AD71 /* black-bomb-clip-art-at-clker-com-vector-clip-art-online-royalty-Q5fe3u-clipart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black-bomb-clip-art-at-clker-com-vector-clip-art-online-royalty-Q5fe3u-clipart.png"; sourceTree = "<group>"; };
 		491282A51E1C7D0E00D0AD71 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
@@ -143,7 +141,6 @@
 				491282B31E1C7D7C00D0AD71 /* MBC.mp3 */,
 				491282B51E1C7D7C00D0AD71 /* Splatter.mp3 */,
 				491282A11E1C7D0E00D0AD71 /* 090105-Board.jpeg */,
-				491282A21E1C7D0E00D0AD71 /* 090105-Board.png */,
 				491282A31E1C7D0E00D0AD71 /* 401px-digitizationgrid1a.png */,
 				491282A41E1C7D0E00D0AD71 /* black-bomb-clip-art-at-clker-com-vector-clip-art-online-royalty-Q5fe3u-clipart.png */,
 				491282A51E1C7D0E00D0AD71 /* board.png */,
@@ -272,7 +269,6 @@
 				491282AA1E1C7D0E00D0AD71 /* 090105-Board.jpeg in Resources */,
 				491282591E1C6ACD00D0AD71 /* GameScene.sks in Resources */,
 				491282641E1C6ACD00D0AD71 /* Assets.xcassets in Resources */,
-				491282AB1E1C7D0E00D0AD71 /* 090105-Board.png in Resources */,
 				491282B71E1C7D7C00D0AD71 /* Oh yeah.mp3 in Resources */,
 				491282B01E1C7D0E00D0AD71 /* chessnossm9.gif in Resources */,
 				491282B11E1C7D0E00D0AD71 /* cross.png in Resources */,
