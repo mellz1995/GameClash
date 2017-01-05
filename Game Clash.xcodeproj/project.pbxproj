@@ -24,6 +24,14 @@
 		49274E7C1E1DE65800CA3B89 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49274E7B1E1DE65800CA3B89 /* SettingsViewController.swift */; };
 		495444C51E1E7FB000C96D35 /* TicTacFoe.sks in Resources */ = {isa = PBXBuildFile; fileRef = 495444C31E1E7FB000C96D35 /* TicTacFoe.sks */; };
 		495444C61E1E7FB000C96D35 /* TicTacFoe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495444C41E1E7FB000C96D35 /* TicTacFoe.swift */; };
+		495444CD1E1E896B00C96D35 /* TapTapGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495444CC1E1E896B00C96D35 /* TapTapGameViewController.swift */; };
+		495444D51E1E8CC300C96D35 /* ExplodeBad.wav in Resources */ = {isa = PBXBuildFile; fileRef = 495444D01E1E8CC300C96D35 /* ExplodeBad.wav */; };
+		495444D61E1E8CC300C96D35 /* ExplodeGood.wav in Resources */ = {isa = PBXBuildFile; fileRef = 495444D11E1E8CC300C96D35 /* ExplodeGood.wav */; };
+		495444D71E1E8CC300C96D35 /* GameOver.wav in Resources */ = {isa = PBXBuildFile; fileRef = 495444D21E1E8CC300C96D35 /* GameOver.wav */; };
+		495444D81E1E8CC300C96D35 /* SpawnBad.wav in Resources */ = {isa = PBXBuildFile; fileRef = 495444D31E1E8CC300C96D35 /* SpawnBad.wav */; };
+		495444D91E1E8CC300C96D35 /* SpawnGood.wav in Resources */ = {isa = PBXBuildFile; fileRef = 495444D41E1E8CC300C96D35 /* SpawnGood.wav */; };
+		495444E51E1E8F1B00C96D35 /* GeometryFighter.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 495444E41E1E8F1B00C96D35 /* GeometryFighter.scnassets */; };
+		495444E71E1E924500C96D35 /* ShapeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495444E61E1E924500C96D35 /* ShapeType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +73,14 @@
 		49274E7B1E1DE65800CA3B89 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		495444C31E1E7FB000C96D35 /* TicTacFoe.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TicTacFoe.sks; sourceTree = "<group>"; };
 		495444C41E1E7FB000C96D35 /* TicTacFoe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicTacFoe.swift; sourceTree = "<group>"; };
+		495444CC1E1E896B00C96D35 /* TapTapGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TapTapGameViewController.swift; path = ../TapTapGameViewController.swift; sourceTree = "<group>"; };
+		495444D01E1E8CC300C96D35 /* ExplodeBad.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ExplodeBad.wav; sourceTree = "<group>"; };
+		495444D11E1E8CC300C96D35 /* ExplodeGood.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ExplodeGood.wav; sourceTree = "<group>"; };
+		495444D21E1E8CC300C96D35 /* GameOver.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = GameOver.wav; sourceTree = "<group>"; };
+		495444D31E1E8CC300C96D35 /* SpawnBad.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SpawnBad.wav; sourceTree = "<group>"; };
+		495444D41E1E8CC300C96D35 /* SpawnGood.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SpawnGood.wav; sourceTree = "<group>"; };
+		495444E41E1E8F1B00C96D35 /* GeometryFighter.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = GeometryFighter.scnassets; sourceTree = "<group>"; };
+		495444E61E1E924500C96D35 /* ShapeType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +129,7 @@
 		491282551E1C6ACC00D0AD71 /* Game Clash */ = {
 			isa = PBXGroup;
 			children = (
+				495444CE1E1E8A6A00C96D35 /* Tap Tap Game */,
 				49274E771E1DDB6600CA3B89 /* TicTacToeViewController.swift */,
 				491282561E1C6ACC00D0AD71 /* AppDelegate.swift */,
 				4912825E1E1C6ACD00D0AD71 /* GameViewController.swift */,
@@ -134,6 +151,7 @@
 		491282A01E1C7D0E00D0AD71 /* Audio Files */ = {
 			isa = PBXGroup;
 			children = (
+				495444CF1E1E8CAC00C96D35 /* TapTap Audio Files */,
 				491282B91E1C7D8B00D0AD71 /* Bomb Exploding Sound Effect.mp3 */,
 				491282C11E1C98F700D0AD71 /* swoosh.mp3 */,
 				491282B41E1C7D7C00D0AD71 /* Oh yeah.mp3 */,
@@ -142,6 +160,28 @@
 			);
 			name = "Audio Files";
 			path = tictactoeimages;
+			sourceTree = "<group>";
+		};
+		495444CE1E1E8A6A00C96D35 /* Tap Tap Game */ = {
+			isa = PBXGroup;
+			children = (
+				495444E41E1E8F1B00C96D35 /* GeometryFighter.scnassets */,
+				495444CC1E1E896B00C96D35 /* TapTapGameViewController.swift */,
+				495444E61E1E924500C96D35 /* ShapeType.swift */,
+			);
+			name = "Tap Tap Game";
+			sourceTree = "<group>";
+		};
+		495444CF1E1E8CAC00C96D35 /* TapTap Audio Files */ = {
+			isa = PBXGroup;
+			children = (
+				495444D01E1E8CC300C96D35 /* ExplodeBad.wav */,
+				495444D11E1E8CC300C96D35 /* ExplodeGood.wav */,
+				495444D21E1E8CC300C96D35 /* GameOver.wav */,
+				495444D31E1E8CC300C96D35 /* SpawnBad.wav */,
+				495444D41E1E8CC300C96D35 /* SpawnGood.wav */,
+			);
+			name = "TapTap Audio Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,9 +295,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				491282BA1E1C7D8B00D0AD71 /* Bomb Exploding Sound Effect.mp3 in Resources */,
+				495444D61E1E8CC300C96D35 /* ExplodeGood.wav in Resources */,
+				495444D71E1E8CC300C96D35 /* GameOver.wav in Resources */,
+				495444E51E1E8F1B00C96D35 /* GeometryFighter.scnassets in Resources */,
+				495444D91E1E8CC300C96D35 /* SpawnGood.wav in Resources */,
 				491282621E1C6ACD00D0AD71 /* Main.storyboard in Resources */,
 				491282641E1C6ACD00D0AD71 /* Assets.xcassets in Resources */,
 				491282B71E1C7D7C00D0AD71 /* Oh yeah.mp3 in Resources */,
+				495444D81E1E8CC300C96D35 /* SpawnBad.wav in Resources */,
+				495444D51E1E8CC300C96D35 /* ExplodeBad.wav in Resources */,
 				491282B61E1C7D7C00D0AD71 /* MBC.mp3 in Resources */,
 				491282671E1C6ACD00D0AD71 /* LaunchScreen.storyboard in Resources */,
 				4912825B1E1C6ACD00D0AD71 /* Actions.sks in Resources */,
@@ -292,6 +338,8 @@
 				49274E7C1E1DE65800CA3B89 /* SettingsViewController.swift in Sources */,
 				49274E7A1E1DDBEF00CA3B89 /* MainMenuToTicTacToeAnimator.swift in Sources */,
 				495444C61E1E7FB000C96D35 /* TicTacFoe.swift in Sources */,
+				495444E71E1E924500C96D35 /* ShapeType.swift in Sources */,
+				495444CD1E1E896B00C96D35 /* TapTapGameViewController.swift in Sources */,
 				49274E781E1DDB6600CA3B89 /* TicTacToeViewController.swift in Sources */,
 				4912825F1E1C6ACD00D0AD71 /* GameViewController.swift in Sources */,
 				491282571E1C6ACC00D0AD71 /* AppDelegate.swift in Sources */,

@@ -78,6 +78,24 @@
             </objects>
             <point key="canvasLocation" x="323" y="355"/>
         </scene>
+        <!--Tap Tap Game View Controller-->
+        <scene sceneID="RtT-CM-jgU">
+            <objects>
+                <viewController id="eM8-tD-QXg" customClass="TapTapGameViewController" customModule="Game_Clash" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CG0-J6-CH5"/>
+                        <viewControllerLayoutGuide type="bottom" id="ebx-3R-3du"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jno-of-BOc" customClass="SCNView">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fbc-j0-qtX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="404" y="-1074"/>
+        </scene>
         <!--Main Menu View Controller-->
         <scene sceneID="gzP-d6-o6r">
             <objects>
