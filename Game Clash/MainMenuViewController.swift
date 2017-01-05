@@ -9,6 +9,8 @@
 import UIKit
 import AVFoundation
 
+var firstView: Bool = true
+
 class MainMenuViewController: UIViewController {
     
     //Segue Variables
@@ -326,12 +328,19 @@ class MainMenuViewController: UIViewController {
         
     }
 
+    func ifFirstView(){
+        if firstView{
+            mainMenuMusic?.play()
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        mainMenuMusic?.play()
         beginningAnimations()
         selectedGameLabel.isHidden = true
         playButtonOutlet.isHidden = true
+        
+        ifFirstView()
         
         selectedGameLabel.center.x = selectedGameLabel.center.x + 1000
         playButtonOutlet.center.x = playButtonOutlet.center.x - 1000
