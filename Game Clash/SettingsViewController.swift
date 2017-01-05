@@ -1,19 +1,19 @@
 //
-//  SinglePlayerGameSelectViewController.swift
+//  SettingsViewController.swift
 //  Game Clash
 //
-//  Created by Melvin Corners on 1/3/17.
+//  Created by Melvin Corners on 1/4/17.
 //  Copyright © 2017 Melvin Corners. All rights reserved.
 //
 
 import UIKit
 
-class SinglePlayerGameSelectViewController: UIViewController {
+class SettingsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+
     }
 
     override func didReceiveMemoryWarning() {
