@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		491282571E1C6ACC00D0AD71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491282561E1C6ACC00D0AD71 /* AppDelegate.swift */; };
-		491282591E1C6ACD00D0AD71 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 491282581E1C6ACD00D0AD71 /* GameScene.sks */; };
 		4912825B1E1C6ACD00D0AD71 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4912825A1E1C6ACD00D0AD71 /* Actions.sks */; };
-		4912825D1E1C6ACD00D0AD71 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4912825C1E1C6ACD00D0AD71 /* GameScene.swift */; };
 		4912825F1E1C6ACD00D0AD71 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4912825E1E1C6ACD00D0AD71 /* GameViewController.swift */; };
 		491282621E1C6ACD00D0AD71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491282601E1C6ACD00D0AD71 /* Main.storyboard */; };
 		491282641E1C6ACD00D0AD71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491282631E1C6ACD00D0AD71 /* Assets.xcassets */; };
@@ -24,6 +22,8 @@
 		49274E781E1DDB6600CA3B89 /* TicTacToeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49274E771E1DDB6600CA3B89 /* TicTacToeViewController.swift */; };
 		49274E7A1E1DDBEF00CA3B89 /* MainMenuToTicTacToeAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49274E791E1DDBEF00CA3B89 /* MainMenuToTicTacToeAnimator.swift */; };
 		49274E7C1E1DE65800CA3B89 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49274E7B1E1DE65800CA3B89 /* SettingsViewController.swift */; };
+		495444C51E1E7FB000C96D35 /* TicTacFoe.sks in Resources */ = {isa = PBXBuildFile; fileRef = 495444C31E1E7FB000C96D35 /* TicTacFoe.sks */; };
+		495444C61E1E7FB000C96D35 /* TicTacFoe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495444C41E1E7FB000C96D35 /* TicTacFoe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,9 +46,7 @@
 /* Begin PBXFileReference section */
 		491282531E1C6ACC00D0AD71 /* Game Clash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game Clash.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		491282561E1C6ACC00D0AD71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		491282581E1C6ACD00D0AD71 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		4912825A1E1C6ACD00D0AD71 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		4912825C1E1C6ACD00D0AD71 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		4912825E1E1C6ACD00D0AD71 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		491282611E1C6ACD00D0AD71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		491282631E1C6ACD00D0AD71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -65,6 +63,8 @@
 		49274E771E1DDB6600CA3B89 /* TicTacToeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TicTacToeViewController.swift; path = ../TicTacToeViewController.swift; sourceTree = "<group>"; };
 		49274E791E1DDBEF00CA3B89 /* MainMenuToTicTacToeAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuToTicTacToeAnimator.swift; sourceTree = "<group>"; };
 		49274E7B1E1DE65800CA3B89 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		495444C31E1E7FB000C96D35 /* TicTacFoe.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TicTacFoe.sks; sourceTree = "<group>"; };
+		495444C41E1E7FB000C96D35 /* TicTacFoe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicTacFoe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,15 +115,13 @@
 			children = (
 				49274E771E1DDB6600CA3B89 /* TicTacToeViewController.swift */,
 				491282561E1C6ACC00D0AD71 /* AppDelegate.swift */,
-				491282581E1C6ACD00D0AD71 /* GameScene.sks */,
-				4912825C1E1C6ACD00D0AD71 /* GameScene.swift */,
 				4912825E1E1C6ACD00D0AD71 /* GameViewController.swift */,
-				97EE51C41E1C8C8B00B7D327 /* TicTacFoe.sks */,
-				97EE51C61E1C8D0500B7D327 /* TicTacFoe.swift */,
 				4912825A1E1C6ACD00D0AD71 /* Actions.sks */,
 				491282601E1C6ACD00D0AD71 /* Main.storyboard */,
 				49274E7B1E1DE65800CA3B89 /* SettingsViewController.swift */,
 				49274E791E1DDBEF00CA3B89 /* MainMenuToTicTacToeAnimator.swift */,
+				495444C31E1E7FB000C96D35 /* TicTacFoe.sks */,
+				495444C41E1E7FB000C96D35 /* TicTacFoe.swift */,
 				491282BF1E1C8E5A00D0AD71 /* MainMenuViewController.swift */,
 				491282631E1C6ACD00D0AD71 /* Assets.xcassets */,
 				491282A01E1C7D0E00D0AD71 /* Audio Files */,
@@ -258,8 +256,6 @@
 			files = (
 				491282BA1E1C7D8B00D0AD71 /* Bomb Exploding Sound Effect.mp3 in Resources */,
 				491282621E1C6ACD00D0AD71 /* Main.storyboard in Resources */,
-				97EE51C51E1C8C8B00B7D327 /* TicTacFoe.sks in Resources */,
-				491282591E1C6ACD00D0AD71 /* GameScene.sks in Resources */,
 				491282641E1C6ACD00D0AD71 /* Assets.xcassets in Resources */,
 				491282B71E1C7D7C00D0AD71 /* Oh yeah.mp3 in Resources */,
 				491282B61E1C7D7C00D0AD71 /* MBC.mp3 in Resources */,
@@ -267,6 +263,7 @@
 				4912825B1E1C6ACD00D0AD71 /* Actions.sks in Resources */,
 				491282B81E1C7D7C00D0AD71 /* Splatter.mp3 in Resources */,
 				491282C21E1C98F700D0AD71 /* swoosh.mp3 in Resources */,
+				495444C51E1E7FB000C96D35 /* TicTacFoe.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,9 +289,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				491282C01E1C8E5A00D0AD71 /* MainMenuViewController.swift in Sources */,
-				4912825D1E1C6ACD00D0AD71 /* GameScene.swift in Sources */,
 				49274E7C1E1DE65800CA3B89 /* SettingsViewController.swift in Sources */,
 				49274E7A1E1DDBEF00CA3B89 /* MainMenuToTicTacToeAnimator.swift in Sources */,
+				495444C61E1E7FB000C96D35 /* TicTacFoe.swift in Sources */,
 				49274E781E1DDB6600CA3B89 /* TicTacToeViewController.swift in Sources */,
 				4912825F1E1C6ACD00D0AD71 /* GameViewController.swift in Sources */,
 				491282571E1C6ACC00D0AD71 /* AppDelegate.swift in Sources */,
