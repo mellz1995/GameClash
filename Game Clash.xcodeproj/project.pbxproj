@@ -32,6 +32,15 @@
 		495444D91E1E8CC300C96D35 /* SpawnGood.wav in Resources */ = {isa = PBXBuildFile; fileRef = 495444D41E1E8CC300C96D35 /* SpawnGood.wav */; };
 		495444E51E1E8F1B00C96D35 /* GeometryFighter.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 495444E41E1E8F1B00C96D35 /* GeometryFighter.scnassets */; };
 		495444E71E1E924500C96D35 /* ShapeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495444E61E1E924500C96D35 /* ShapeType.swift */; };
+		49A4D56B1E1EA19900C416B9 /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A4D5641E1EA19900C416B9 /* Double+Extensions.swift */; };
+		49A4D56C1E1EA19900C416B9 /* Float+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A4D5651E1EA19900C416B9 /* Float+Extensions.swift */; };
+		49A4D56D1E1EA19900C416B9 /* GameHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A4D5661E1EA19900C416B9 /* GameHelper.swift */; };
+		49A4D56E1E1EA19900C416B9 /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A4D5671E1EA19900C416B9 /* Generics.swift */; };
+		49A4D56F1E1EA19900C416B9 /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A4D5681E1EA19900C416B9 /* Int+Extensions.swift */; };
+		49A4D5701E1EA19900C416B9 /* SCNAction+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A4D5691E1EA19900C416B9 /* SCNAction+Extensions.swift */; };
+		49A4D5711E1EA19900C416B9 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A4D56A1E1EA19900C416B9 /* UIColor+Extensions.swift */; };
+		49A4D5751E1EB6CE00C416B9 /* Trail.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 49A4D5731E1EB6CE00C416B9 /* Trail.scnp */; };
+		49A4D5761E1EB6CE00C416B9 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 49A4D5741E1EB6CE00C416B9 /* spark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +90,15 @@
 		495444D41E1E8CC300C96D35 /* SpawnGood.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SpawnGood.wav; sourceTree = "<group>"; };
 		495444E41E1E8F1B00C96D35 /* GeometryFighter.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = GeometryFighter.scnassets; sourceTree = "<group>"; };
 		495444E61E1E924500C96D35 /* ShapeType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeType.swift; sourceTree = "<group>"; };
+		49A4D5641E1EA19900C416B9 /* Double+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
+		49A4D5651E1EA19900C416B9 /* Float+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Float+Extensions.swift"; sourceTree = "<group>"; };
+		49A4D5661E1EA19900C416B9 /* GameHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameHelper.swift; sourceTree = "<group>"; };
+		49A4D5671E1EA19900C416B9 /* Generics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Generics.swift; sourceTree = "<group>"; };
+		49A4D5681E1EA19900C416B9 /* Int+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		49A4D5691E1EA19900C416B9 /* SCNAction+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SCNAction+Extensions.swift"; sourceTree = "<group>"; };
+		49A4D56A1E1EA19900C416B9 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		49A4D5731E1EB6CE00C416B9 /* Trail.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Trail.scnp; sourceTree = "<group>"; };
+		49A4D5741E1EB6CE00C416B9 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +147,7 @@
 		491282551E1C6ACC00D0AD71 /* Game Clash */ = {
 			isa = PBXGroup;
 			children = (
+				49A4D5721E1EB69B00C416B9 /* Particles */,
 				495444CE1E1E8A6A00C96D35 /* Tap Tap Game */,
 				49274E771E1DDB6600CA3B89 /* TicTacToeViewController.swift */,
 				491282561E1C6ACC00D0AD71 /* AppDelegate.swift */,
@@ -165,6 +184,7 @@
 		495444CE1E1E8A6A00C96D35 /* Tap Tap Game */ = {
 			isa = PBXGroup;
 			children = (
+				49A4D5631E1EA19900C416B9 /* GameUtils */,
 				495444E41E1E8F1B00C96D35 /* GeometryFighter.scnassets */,
 				495444CC1E1E896B00C96D35 /* TapTapGameViewController.swift */,
 				495444E61E1E924500C96D35 /* ShapeType.swift */,
@@ -182,6 +202,29 @@
 				495444D41E1E8CC300C96D35 /* SpawnGood.wav */,
 			);
 			name = "TapTap Audio Files";
+			sourceTree = "<group>";
+		};
+		49A4D5631E1EA19900C416B9 /* GameUtils */ = {
+			isa = PBXGroup;
+			children = (
+				49A4D5641E1EA19900C416B9 /* Double+Extensions.swift */,
+				49A4D5651E1EA19900C416B9 /* Float+Extensions.swift */,
+				49A4D5661E1EA19900C416B9 /* GameHelper.swift */,
+				49A4D5671E1EA19900C416B9 /* Generics.swift */,
+				49A4D5681E1EA19900C416B9 /* Int+Extensions.swift */,
+				49A4D5691E1EA19900C416B9 /* SCNAction+Extensions.swift */,
+				49A4D56A1E1EA19900C416B9 /* UIColor+Extensions.swift */,
+			);
+			path = GameUtils;
+			sourceTree = "<group>";
+		};
+		49A4D5721E1EB69B00C416B9 /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				49A4D5731E1EB6CE00C416B9 /* Trail.scnp */,
+				49A4D5741E1EB6CE00C416B9 /* spark.png */,
+			);
+			name = Particles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				491282BA1E1C7D8B00D0AD71 /* Bomb Exploding Sound Effect.mp3 in Resources */,
+				49A4D5761E1EB6CE00C416B9 /* spark.png in Resources */,
 				495444D61E1E8CC300C96D35 /* ExplodeGood.wav in Resources */,
 				495444D71E1E8CC300C96D35 /* GameOver.wav in Resources */,
 				495444E51E1E8F1B00C96D35 /* GeometryFighter.scnassets in Resources */,
@@ -309,6 +353,7 @@
 				4912825B1E1C6ACD00D0AD71 /* Actions.sks in Resources */,
 				491282B81E1C7D7C00D0AD71 /* Splatter.mp3 in Resources */,
 				491282C21E1C98F700D0AD71 /* swoosh.mp3 in Resources */,
+				49A4D5751E1EB6CE00C416B9 /* Trail.scnp in Resources */,
 				495444C51E1E7FB000C96D35 /* TicTacFoe.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,9 +383,16 @@
 				49274E7C1E1DE65800CA3B89 /* SettingsViewController.swift in Sources */,
 				49274E7A1E1DDBEF00CA3B89 /* MainMenuToTicTacToeAnimator.swift in Sources */,
 				495444C61E1E7FB000C96D35 /* TicTacFoe.swift in Sources */,
+				49A4D56E1E1EA19900C416B9 /* Generics.swift in Sources */,
+				49A4D56B1E1EA19900C416B9 /* Double+Extensions.swift in Sources */,
+				49A4D56D1E1EA19900C416B9 /* GameHelper.swift in Sources */,
 				495444E71E1E924500C96D35 /* ShapeType.swift in Sources */,
 				495444CD1E1E896B00C96D35 /* TapTapGameViewController.swift in Sources */,
 				49274E781E1DDB6600CA3B89 /* TicTacToeViewController.swift in Sources */,
+				49A4D56C1E1EA19900C416B9 /* Float+Extensions.swift in Sources */,
+				49A4D5711E1EA19900C416B9 /* UIColor+Extensions.swift in Sources */,
+				49A4D5701E1EA19900C416B9 /* SCNAction+Extensions.swift in Sources */,
+				49A4D56F1E1EA19900C416B9 /* Int+Extensions.swift in Sources */,
 				4912825F1E1C6ACD00D0AD71 /* GameViewController.swift in Sources */,
 				491282571E1C6ACC00D0AD71 /* AppDelegate.swift in Sources */,
 			);
