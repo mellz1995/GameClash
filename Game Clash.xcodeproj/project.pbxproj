@@ -107,6 +107,7 @@
 		491282551E1C6ACC00D0AD71 /* Game Clash */ = {
 			isa = PBXGroup;
 			children = (
+				49274E771E1DDB6600CA3B89 /* TicTacToeViewController.swift */,
 				491282561E1C6ACC00D0AD71 /* AppDelegate.swift */,
 				491282581E1C6ACD00D0AD71 /* GameScene.sks */,
 				4912825C1E1C6ACD00D0AD71 /* GameScene.swift */,
@@ -115,6 +116,9 @@
 				97EE51C61E1C8D0500B7D327 /* TicTacFoe.swift */,
 				4912825A1E1C6ACD00D0AD71 /* Actions.sks */,
 				491282601E1C6ACD00D0AD71 /* Main.storyboard */,
+				49274E7B1E1DE65800CA3B89 /* SettingsViewController.swift */,
+				49274E791E1DDBEF00CA3B89 /* MainMenuToTicTacToeAnimator.swift */,
+				491282BF1E1C8E5A00D0AD71 /* MainMenuViewController.swift */,
 				491282631E1C6ACD00D0AD71 /* Assets.xcassets */,
 				491282A01E1C7D0E00D0AD71 /* Audio Files */,
 				491282651E1C6ACD00D0AD71 /* LaunchScreen.storyboard */,
@@ -127,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				491282B91E1C7D8B00D0AD71 /* Bomb Exploding Sound Effect.mp3 */,
+				491282C11E1C98F700D0AD71 /* swoosh.mp3 */,
 				491282B41E1C7D7C00D0AD71 /* Oh yeah.mp3 */,
 				491282B31E1C7D7C00D0AD71 /* MBC.mp3 */,
 				491282B51E1C7D7C00D0AD71 /* Splatter.mp3 */,
@@ -255,6 +260,7 @@
 				491282671E1C6ACD00D0AD71 /* LaunchScreen.storyboard in Resources */,
 				4912825B1E1C6ACD00D0AD71 /* Actions.sks in Resources */,
 				491282B81E1C7D7C00D0AD71 /* Splatter.mp3 in Resources */,
+				491282C21E1C98F700D0AD71 /* swoosh.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +287,9 @@
 			files = (
 				97EE51C71E1C8D0500B7D327 /* TicTacFoe.swift in Sources */,
 				4912825D1E1C6ACD00D0AD71 /* GameScene.swift in Sources */,
+				49274E7C1E1DE65800CA3B89 /* SettingsViewController.swift in Sources */,
+				49274E7A1E1DDBEF00CA3B89 /* MainMenuToTicTacToeAnimator.swift in Sources */,
+				49274E781E1DDB6600CA3B89 /* TicTacToeViewController.swift in Sources */,
 				4912825F1E1C6ACD00D0AD71 /* GameViewController.swift in Sources */,
 				491282571E1C6ACC00D0AD71 /* AppDelegate.swift in Sources */,
 			);
